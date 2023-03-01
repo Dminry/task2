@@ -9,6 +9,8 @@ import java.util.Scanner;
             SalesManager salesManager = new SalesManager(sales);
             int max = salesManager.max();
             System.out.println("Максимальная сумма продаж в день  " + max);
+            int average = salesManager.average();
+            System.out.println("Среднее значение продаж " + average);
 
         }
     }
